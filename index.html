@@ -14,25 +14,157 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="header">
-      <ul>
-        <li class="logo">LowPrice</li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            UA
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">PL</a></li>
-            <li><a class="dropdown-item" href="#">EN</a></li>
+    <div class="wrapper_first_section">
+      <section class="header">
+        <nav>
+          <ul class="menu">
+            <li class="menu_logo">LowPrice</li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active menu_lang ACTIVE"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                UA
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item menu_lang" href="#">PL</a></li>
+                <li><a class="dropdown-item menu_lang" href="#">EN</a></li>
+              </ul>
+            </li>
+            <li class="menu_log">Увійти</li>
           </ul>
+        </nav>
+      </section>
+      <section class="monitoring">
+        <div class="row">
+          <div class="col-8">
+            <h1 class="monitoring_header">
+              Моніторинг і контроль цін в інтернет - магазинах
+            </h1>
+            <p class="monitoring_subheader">
+              Автоматизоване вирішення складних завдань:
+            </p>
+            <ul class="monitoring_list">
+              <ol class="monitoring_item">
+                1. Контроль рекомендованих цін
+              </ol>
+              <ol class="monitoring_item">
+                2. Відстеження асортименту
+              </ol>
+              <ol class="monitoring_item">
+                3. Ціноутворення
+              </ol>
+              <ol class="monitoring_item">
+                4. Аналіз конкурентів
+              </ol>
+            </ul>
+            <button type="button" class="btn btn-primary">Вхід</button>
+          </div>
+          <div class="col-4">
+            <form class="monitoring_form">
+              <p>Реєстрація</p>
+              <p>обо створіть свій обліковий запис або увійдіть</p>
+
+              <label for="fname" class="monitoring_form_name">Ваше ім’я</label
+              ><br />
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                class="monitoring_form_textarea"
+              />
+              <br />
+              <label for="email" class="monitoring_form_mail">Email</label
+              ><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="monitoring_form_textarea"
+              />
+              <br />
+              <label for="pwd" class="monitoring_form_password">Пароль</label
+              ><br />
+              <input
+                type="password"
+                id="pwd"
+                name="pwd"
+                class="monitoring_form_textarea"
+              />
+
+              <p class="monitoring_form_forget">Забули пароль?</p>
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="vehicle1">
+                Я погоджуюся з умовамии використання сервісу та
+                <a href="#">Повідомленнями про Конфіденціальність</a> </label
+              ><br />
+              <button
+                type="button"
+                class="btn btn-primary monitoring_form_btnNext"
+              >
+                Продовжити
+              </button>
+              <br />
+              <button
+                type="button"
+                class="btn btn-primary monitoring_form__Google"
+              >
+                Продовжити через Google
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="popUp">
+      <ul class="log_work">
+        <li class="log_work_welcome">Ласкаво просимо</li>
+        <li class="log_work_come">ввійдіть в LowPrice щоб почати роботу</li>
+        <form class="log_work_form">
+          <label for="email" class="log_work_mail">Email</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="log_work_textarea"
+          />
+          <br />
+          <label for="pwd" class="log_work_password">Пароль</label><br />
+          <input
+            type="password"
+            id="pwd"
+            name="pwd"
+            class="log_work_textarea"
+          />
+        </form>
+        <li class="log_work_forgetPassword">Забули пароль ?</li>
+        <li>
+          <button type="button" class="btn btn-primary log_work_btnNext">
+            Продовжити
+          </button>
         </li>
-        <li>Увійти</li>
+        <li class="log_work_question">
+          У Вас нема акуанта? <span>Зареєструватись</span>
+        </li>
+        <li class="log_work_or_wrap">
+          <div class="log_work_or">або</div>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-primary log_work_btnNext log_work_Google"
+          >
+            Продовжити через Google
+          </button>
+        </li>
       </ul>
     </section>
     <script
