@@ -65,6 +65,8 @@ nav {
 .monitoring {
   min-height: 825px;
   padding: 43px 77px 104px 83px;
+  display: flex;
+  justify-content: space-between;
 }
 .monitoring_header {
   font-family: "Playfair Display Regular";
@@ -124,7 +126,7 @@ aside {
 .monitoring_form_registration {
   font-size: 20px;
   line-height: 24px;
-  margin-top: 72px;
+  margin-top: 29px;
 }
 .monitoring_form_or {
   font-size: 14px;
