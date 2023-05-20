@@ -66,10 +66,13 @@
           <div class="col-4">
             <aside>
               <form class="monitoring_form">
-                <p>Реєстрація</p>
-                <p>обо створіть свій обліковий запис або увійдіть</p>
+                <p class="monitoring_form_registration">Реєстрація</p>
+                <p class="monitoring_form_or">
+                  обо створіть свій обліковий запис або <a href="#">увійдіть</a>
+                </p>
 
-                <label for="fname" class="monitoring_form_name">Ваше ім’я</label
+                <label for="fname" class="monitoring_form_signature"
+                  >Ваше ім’я</label
                 ><br />
                 <input
                   type="text"
@@ -78,7 +81,8 @@
                   class="monitoring_form_textarea"
                 />
                 <br />
-                <label for="email" class="monitoring_form_mail">Email</label
+                <label for="email" class="monitoring_form_signature"
+                  >Email</label
                 ><br />
                 <input
                   type="email"
@@ -87,7 +91,7 @@
                   class="monitoring_form_textarea"
                 />
                 <br />
-                <label for="pwd" class="monitoring_form_password">Пароль</label
+                <label for="pwd" class="monitoring_form_signature">Пароль</label
                 ><br />
                 <input
                   type="password"
@@ -96,14 +100,18 @@
                   class="monitoring_form_textarea"
                 />
 
-                <p class="monitoring_form_forget">Забули пароль?</p>
+                <a class="monitoring_form_forget" href="http://"
+                  >Забули пароль?</a
+                >
+
                 <input
                   type="checkbox"
                   id="vehicle1"
                   name="vehicle1"
                   value="Bike"
+                  class="monitoring_form_checkbox"
                 />
-                <label for="vehicle1">
+                <label for="vehicle1" class="monitoring_form_confirm">
                   Я погоджуюся з умовамии використання сервісу та
                   <a href="#">Повідомленнями про Конфіденціальність</a> </label
                 ><br />
@@ -111,14 +119,14 @@
                   type="button"
                   class="btn btn-primary monitoring_form_btnNext"
                 >
-                  Продовжити
+                  Створити акаунт
                 </button>
                 <br />
                 <button
                   type="button"
-                  class="btn btn-primary monitoring_form__Google"
+                  class="btn btn-primary monitoring_form_btnNext monitoring_form__Google"
                 >
-                  Продовжити через Google
+                  Зареєструватися через Google
                 </button>
               </form>
             </aside>
