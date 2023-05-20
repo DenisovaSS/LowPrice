@@ -64,8 +64,61 @@ nav {
 }
 .monitoring {
   min-height: 825px;
+  padding: 43px 77px 104px 83px;
 }
-
+.monitoring_header {
+  font-family: "Playfair Display Regular";
+  margin-top: 127px;
+  font-size: 58px;
+  line-height: 77px;
+}
+.monitoring_list {
+  margin-top: 46px;
+  margin-bottom: 0;
+  font-family: "Playfair Display Regular";
+  font-size: 20px;
+  line-height: 27px;
+}
+.monitoring_item {
+  font-family: "Playfair Display Regular";
+  font-size: 20px;
+  line-height: 27px;
+  padding-left: 0rem;
+}
+.monitoring_btn {
+  margin-top: 98px;
+  margin-left: 300px;
+  box-shadow: 4px 4px 2px #0059dc;
+  padding: 17px 80px;
+  width: 192px;
+  height: 53px;
+  color: #0568fa;
+  font-size: 16px;
+  background: #f5f5f5;
+  transition: all 20ms ease-in-out;
+}
+.monitoring_btn:hover {
+  border: 2px solid #0568fa;
+  color: #020162;
+  background: #f5f5f5;
+}
+aside {
+  position: relative;
+}
+.monitoring_form {
+  margin-left: 132px;
+}
+.monitoring_form::before {
+  content: "";
+  display: block;
+  width: 85px;
+  height: 678px;
+  background: #0568fa;
+  position: absolute;
+  border-radius: 100px 0px 0px 100px;
+  left: 0;
+  top: 0;
+}
 .popUp {
   background-color: bisque;
 }
