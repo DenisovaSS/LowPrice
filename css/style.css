@@ -6,6 +6,9 @@
   font-family: "Roboto Regular";
   color: #020126;
 }
+.container {
+  padding: 0;
+}
 .wrapper_first_section {
   background: url(../img/first.jpg) center center/cover no-repeat;
 }
@@ -26,9 +29,14 @@ nav {
 }
 .menu_logo {
   margin: 32px 0 8px 0;
-  font-family: Bank Gothic;
+  font-family: "Bank Gothic";
   font-size: 20px;
   font-weight: bold;
+}
+
+.dropdown .active {
+  background: #0568fa;
+  margin: 23px 0 8px 5px;
 }
 .menu_lang {
   width: 30px;
@@ -41,10 +49,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.ACTIVE {
-  background: #0568fa;
-  margin: 23px 0 8px 5px;
-}
+
 .dropdown-menu {
   min-width: 30px;
   border: 0;
@@ -64,7 +69,7 @@ nav {
 }
 .monitoring {
   min-height: 825px;
-  padding: 43px 77px 104px 83px;
+  padding: 43px 65px 104px 71px;
   display: flex;
   justify-content: space-between;
 }
@@ -191,6 +196,57 @@ aside {
   background: #e1e9f0;
   color: #4f4f4f;
   border: 0;
+}
+.service {
+  min-height: 684px;
+  padding: 64px 297px 64px 80px;
+  background: url(../img/second.jpg) center center/cover no-repeat;
+}
+.title {
+  font-size: 36px;
+  line-height: 42px;
+}
+.service_list {
+  margin-bottom: 16px;
+}
+.service_item {
+  font-size: 20px;
+  line-height: 23px;
+}
+.step_block {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.step_count {
+  font-size: 67px;
+  font-family: "Bank Gothic";
+  text-align: center;
+}
+.step_count_wrap {
+  width: 75px;
+  height: 75px;
+  border: 2px solid #020126;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step_name {
+  margin-left: 28px;
+  font-size: 24px;
+  line-height: 28px;
+}
+.advantage {
+  min-height: 166px;
+  padding: 14px 185px 30px 80px;
+  background: #0568fa;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.advantage_discribe {
+  font-size: 20px;
+  line-height: 23px;
 }
 .popUp {
   background-color: bisque;
