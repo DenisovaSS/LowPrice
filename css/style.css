@@ -6,9 +6,7 @@
   font-family: "Roboto Regular";
   color: #020126;
 }
-.container {
-  padding: 0;
-}
+
 .wrapper_first_section {
   background: url(../img/first.jpg) center center/cover no-repeat;
 }
@@ -66,6 +64,106 @@ nav {
   position: absolute;
   top: 24px;
   right: 0;
+}
+.popUp {
+  background-color: bisque;
+  display: none;
+}
+.log_work {
+  padding: 65px 79px;
+}
+.log_work_welcome {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.log_work_come {
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+.log_work_form {
+  text-align: center;
+  margin-top: 44px;
+}
+.log_work_mail {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+.log_work_password {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+.log_work_textarea {
+  height: 40px;
+  width: 303px;
+  border: 0;
+  background: #e1e9f0;
+  margin-top: 10px;
+}
+.log_work_forgetPassword {
+  text-align: center;
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.log_work_btnNext {
+  width: 303px;
+  height: 40px;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.log_work_question {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.log_work_question span {
+  font-weight: bold;
+}
+.log_work_or {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.log_work_or_wrap {
+  position: relative;
+}
+.log_work_or::before {
+  content: "";
+  display: block;
+  width: 131px;
+  height: 0.1px;
+  background: #191970;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.log_work_or::after {
+  content: "";
+  display: block;
+  width: 131px;
+  height: 0.1px;
+  background: #191970;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+.log_work_Google {
+  margin-top: 24px;
+  background-color: #e1e9f0;
+  color: #4f4f4f;
+  border: 0;
 }
 .monitoring {
   min-height: 825px;
@@ -199,7 +297,8 @@ aside {
 }
 .service {
   min-height: 684px;
-  padding: 64px 297px 64px 80px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   background: url(../img/second.jpg) center center/cover no-repeat;
 }
 .title {
@@ -239,111 +338,64 @@ aside {
 }
 .advantage {
   min-height: 166px;
-  padding: 14px 185px 30px 80px;
+  padding-top: 14px;
+  padding-bottom: 30px;
   background: #0568fa;
   border-radius: 0px 0px 100px 100px;
 }
-
 .advantage_discribe {
   font-size: 20px;
   line-height: 23px;
 }
-.popUp {
-  background-color: bisque;
+.order_parsing {
+  min-height: 586px;
+  padding-top: 42px;
+  padding-bottom: 45px;
 }
-.log_work {
-  padding: 65px 79px;
-}
-.log_work_welcome {
-  text-align: center;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-}
-.log_work_come {
-  margin-top: 3px;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-}
-.log_work_form {
-  text-align: center;
-  margin-top: 44px;
-}
-.log_work_mail {
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-}
-.log_work_password {
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-  margin-top: 15px;
-}
-.log_work_textarea {
-  height: 40px;
-  width: 303px;
-  border: 0;
-  background: #e1e9f0;
-  margin-top: 10px;
-}
-.log_work_forgetPassword {
-  text-align: center;
-  margin-top: 24px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-}
-.log_work_btnNext {
-  width: 303px;
-  height: 40px;
-  margin-top: 40px;
-  font-weight: 400;
+.order_parsing_btn {
+  box-shadow: 4px 4px 2px #0059dc;
+  width: 299px;
+  height: 53px;
+  color: #0568fa;
   font-size: 16px;
-  line-height: 19px;
+  background: #f5f5f5;
+  transition: all 20ms ease-in-out;
 }
-.log_work_question {
-  margin-top: 8px;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
+.order_parsing_btn:hover {
+  border: 2px solid #0568fa;
+  color: #020162;
+  background: #f5f5f5;
 }
-.log_work_question span {
-  font-weight: bold;
+.data {
+  min-height: 1000px;
+  padding-top: 3px;
+  padding-bottom: 58px;
+  background: url(../img/last.jpg) center center/cover no-repeat;
 }
-.log_work_or {
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-  margin-top: 30px;
+.data_subtitle {
+  margin-left: 100px;
+  margin-top: 45px;
+  font-size: 20px;
 }
-.log_work_or_wrap {
-  position: relative;
+.data_line img {
+  width: 20px;
+  height: 20px;
 }
-.log_work_or::before {
-  content: "";
+.fa-trash-can {
+  font-size: 20px;
+}
+.data_block {
+  margin: 8px auto 19px;
+  width: 1062px;
+  height: 299px;
+  background: #e1e9f0;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.data_download {
   display: block;
-  width: 131px;
-  height: 0.1px;
-  background: #191970;
-  left: 0;
-  top: 50%;
-  position: absolute;
+  margin: 26px auto 0;
 }
-.log_work_or::after {
-  content: "";
-  display: block;
-  width: 131px;
-  height: 0.1px;
-  background: #191970;
-  right: 0;
-  top: 50%;
-  position: absolute;
-}
-.log_work_Google {
-  margin-top: 24px;
-  background-color: #e1e9f0;
-  color: #4f4f4f;
-  border: 0;
+.footer {
+  min-height: 219px;
+  background: grey;
 }

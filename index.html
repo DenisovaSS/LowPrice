@@ -38,6 +38,49 @@
           </ul>
         </nav>
       </section>
+      <section class="popUp">
+        <ul class="log_work">
+          <li class="log_work_welcome">Ласкаво просимо</li>
+          <li class="log_work_come">ввійдіть в LowPrice щоб почати роботу</li>
+          <form class="log_work_form">
+            <label for="email" class="log_work_mail">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="log_work_textarea"
+            />
+            <br />
+            <label for="pwd" class="log_work_password">Пароль</label><br />
+            <input
+              type="password"
+              id="pwd"
+              name="pwd"
+              class="log_work_textarea"
+            />
+          </form>
+          <li class="log_work_forgetPassword">Забули пароль ?</li>
+          <li>
+            <button type="button" class="btn btn-primary log_work_btnNext">
+              Продовжити
+            </button>
+          </li>
+          <li class="log_work_question">
+            У Вас нема акуанта? <span>Зареєструватись</span>
+          </li>
+          <li class="log_work_or_wrap">
+            <div class="log_work_or">або</div>
+          </li>
+          <li>
+            <button
+              type="button"
+              class="btn btn-primary log_work_btnNext log_work_Google"
+            >
+              Продовжити через Google
+            </button>
+          </li>
+        </ul>
+      </section>
       <section class="monitoring">
         <div class="monitoring_control">
           <h1 class="monitoring_header">
@@ -147,17 +190,17 @@
             <div class="step_name">Реєстрація</div>
           </div>
 
-          <div class="offset-md-3 col-md-9 step_block">
+          <div class="offset-md-2 col-md-10 step_block">
             <div class="step_count_wrap"><div class="step_count">2</div></div>
             <div class="step_name">Завантаження прайсу</div>
           </div>
 
-          <div class="offset-md-5 col-md-7 step_block">
+          <div class="offset-md-4 col-md-8 step_block">
             <div class="step_count_wrap"><div class="step_count">3</div></div>
             <div class="step_name">Визначення спектр ринку</div>
           </div>
 
-          <div class="offset-md-7 col-md-5 step_block">
+          <div class="offset-md-6 col-md-6 step_block">
             <div class="step_count_wrap"><div class="step_count">4</div></div>
             <div class="step_name">Аналізування результату</div>
           </div>
@@ -170,7 +213,8 @@
         <div class="row justify-content-center">
           <div class="col-md-5 advantage_discribe">
             Оптимізація витрат часу за рахунок можливості автоматичного
-            оновлення інформації на вашому сайті
+            оновлення інформації <br />
+            на вашому сайті
           </div>
           <div class="col-md-5 advantage_discribe">
             Ефективне використання рекламних бюджетів та підвищення лояльності
@@ -179,52 +223,65 @@
         </div>
       </div>
     </section>
-    <section class="popUp">
-      <ul class="log_work">
-        <li class="log_work_welcome">Ласкаво просимо</li>
-        <li class="log_work_come">ввійдіть в LowPrice щоб почати роботу</li>
-        <form class="log_work_form">
-          <label for="email" class="log_work_mail">Email</label><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            class="log_work_textarea"
-          />
-          <br />
-          <label for="pwd" class="log_work_password">Пароль</label><br />
-          <input
-            type="password"
-            id="pwd"
-            name="pwd"
-            class="log_work_textarea"
-          />
-        </form>
-        <li class="log_work_forgetPassword">Забули пароль ?</li>
-        <li>
-          <button type="button" class="btn btn-primary log_work_btnNext">
-            Продовжити
-          </button>
-        </li>
-        <li class="log_work_question">
-          У Вас нема акуанта? <span>Зареєструватись</span>
-        </li>
-        <li class="log_work_or_wrap">
-          <div class="log_work_or">або</div>
-        </li>
-        <li>
-          <button
-            type="button"
-            class="btn btn-primary log_work_btnNext log_work_Google"
-          >
-            Продовжити через Google
-          </button>
-        </li>
-      </ul>
+    <section class="order_parsing">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <img
+              src="img/picture.png"
+              alt="monitor_and_people"
+              class="img-fluid order_parsing_img"
+            />
+          </div>
+          <div class="col-md-4 align-self-center">
+            <button type="button" class="btn btn-light order_parsing_btn">
+              Замовити парсинг
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
+    <section class="data">
+      <div class="container">
+        <h2 class="title">Налаштування завантаження даних</h2>
+        <p class="data_subtitle">Адреса магазинів</p>
+        <div class="data_line">
+          <img src="img/001-plus.png" alt="circlePLUS" />
+          <i class="fa-regular fa-trash-can"></i>
+          <span class="icon-plus-circle"></span>
+          <button type="button" class="btn btn-primary data_get">
+            Завантажити дані
+          </button>
+          <button type="button" class="btn btn-primary data_update">
+            Оновити
+          </button>
+        </div>
+        <div class="data_block"></div>
+        <p class="data_subtitle">Список посилань</p>
+        <div class="data_block"></div>
+        <button type="button" class="btn btn-primary data_download">
+          Вивантаження каталогу товарів
+        </button>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">LowPrice</div>
+          <div class="col-md-5">Послуги</div>
+        </div>
+        <p>Дякуємо за співпрацю!</p>
+        <p>Зроблено з любов’ю від команди LowPrice</p>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/6c23b1fdda.js"
       crossorigin="anonymous"
     ></script>
   </body>
